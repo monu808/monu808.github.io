@@ -4,7 +4,7 @@ document.getElementById('searchBtn').addEventListener('click', () => {
 });
 
 async function searchSong(searchTerm) {
-    const apiKey = 'BQD2pYPj6ftY7uldb8OXi0cGLVe6QdFoQEiNw1eDNUo0DNXsjns86JOITp716vVTRL6K66pT5GZyFmOFiPkum0QEowUz1eAYaB1pru03365EFXqdywSVqrXki718RwCz96oWySQPoNObn7zEb18XeRNLDTPV5_ENMF3QeIN82ALmMf3618HATt9Jz1STYa_iyNZNoisM7bV9m5LsE6eJDv9CzpAV6hoI6neVJIfjV2qdbEIwl68VZv3dehO0mPR1GbEHhSXengGCsI2h8Pz_-WCj';
+    const apiKey = 'BQClSwSjoEMLeSHn6bqzMk2kCv48I_Ie8OuEcEV3qcxO6F5hwglTiy8Ee9GLPovszD6-64Fh8EQXN-5cWyYYAHCnG_Xbwh-M_J-txUdR8MpvTHIOzyKulzJYF1uB_nU-IZeoFfYoV_Ahk3VCBekQG77p-W7vExmH66YmvdN7oNgA2oS88KHginEumFlWvaXStLyb3HPyk-bhUgqlAwdkCQFgYPt_oMhP0_WlvG_OnBf7oly13lpG5I7qf4-iN9btelykPmpcu8_zxjNjgVcRhW1t';
     const apiUrl = `https://api.spotify.com/v1/search?q=${searchTerm}&type=track`;
 
     try {
